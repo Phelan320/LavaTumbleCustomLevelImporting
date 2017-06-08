@@ -1,0 +1,40 @@
+{
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [6, 1, 2],
+                [2, 1, 6],
+                [6, 1, 6],
+                [10, 1, 6],
+                [6, 1, 10]
+            ],
+            "overrides": {
+                "BrickColor": "Bright green"
+            }
+        }
+    ],
+    "instructions": "Touch the green blocks",
+    "gameplayOptions": {
+        "blocksToRemove": {
+            "property": "BrickColor",
+            "value": "Bright green"
+        }
+    },
+    "entry": [6, 1, 6],
+    "awaitOutcome": "allSpecifiedBlocksTouched",
+    "name": "First Aid",
+    "map": [
+        [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+            [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+            [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ]
+    ]
+}

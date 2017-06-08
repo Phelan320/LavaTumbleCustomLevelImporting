@@ -1,0 +1,43 @@
+{
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [4, 1, 4],
+                [8, 1, 4],
+                [6, 1, 6],
+                [4, 1, 8],
+                [8, 1, 8]
+            ],
+            "overrides": {
+                "BrickColor": "Bright green"
+            }
+        }
+    ],
+    "instructions": "Touch the green blocks",
+    "gameplayOptions": {
+        "head": [2, 1, 1],
+        "blockInterval": 0.8,
+        "blocksToRemove": {
+            "property": "BrickColor",
+            "value": "Bright green"
+        }
+    },
+    "entry": [1, 1, 1],
+    "awaitOutcome": "allSpecifiedBlocksTouched",
+    "name": "The Runaround",
+    "gameModes": ["mysteryPath"],
+    "map": [
+        [
+            [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ]
+    ]
+}

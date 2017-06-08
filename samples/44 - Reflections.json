@@ -1,0 +1,50 @@
+{
+    "awaitOutcome": "allSpecifiedBlocksTouched",
+    "gameplayOptions": {
+        "blocksToRemove": {
+            "property": "BrickColor",
+            "value": "Bright green"
+        }
+    },
+    "entry": [4, 1, 1],
+    "name": "Reflections",
+    "instructions": "Touch the green blocks",
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [4, 1, 8],
+                [6, 1, 11],
+                [8, 1, 9]
+            ],
+            "overrides": {
+                "BrickColor": "Bright green"
+            }
+        }, {
+            "blockPositions": [
+                [5, 1, 10],
+                [5, 1, 11],
+                [6, 1, 8],
+                [7, 1, 11],
+                [8, 1, 10]
+            ],
+            "overrides": {
+                "BrickColor": "Bright red"
+            }
+        }
+    ],
+    "gameModes": ["horizontalMirrorMode"],
+    "map": [
+        [
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]
+        ]
+    ]
+}

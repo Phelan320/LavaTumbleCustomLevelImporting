@@ -1,0 +1,56 @@
+{
+    "awaitOutcome": "allSpecifiedBlocksTouched",
+    "gameplayOptions": {
+        "blocksToRemove": {
+            "property": "BrickColor",
+            "value": "Bright green"
+        }
+    },
+    "entry": [3, 1, 1],
+    "name": "Mirror's Edge",
+    "instructions": "Touch the green block",
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [6, 1, 11]
+            ],
+            "overrides": {
+                "BrickColor": "Bright green"
+            }
+        }, {
+            "blockPositions": [
+                [4, 1, 9],
+                [5, 1, 9],
+                [6, 1, 9],
+                [7, 1, 9],
+                [8, 1, 9],
+                [4, 1, 10],
+                [5, 1, 10],
+                [6, 1, 10],
+                [7, 1, 10],
+                [8, 1, 10],
+                [4, 1, 11],
+                [5, 1, 11]
+            ],
+            "overrides": {
+                "Locked": true,
+                "BrickColor": "Bright red"
+            }
+        }
+    ],
+    "gameModes": ["horizontalMirrorMode"],
+    "map": [
+        [
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+            [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+        ]
+    ]
+}

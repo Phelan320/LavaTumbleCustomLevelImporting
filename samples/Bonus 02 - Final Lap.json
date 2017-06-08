@@ -1,0 +1,51 @@
+{
+    "awaitOutcome": "starredIsLastTouched",
+    "gameplayOptions": {
+        "lastBlock": [5, 1, 4]
+    },
+    "entry": [5, 1, 4],
+    "name": "Final lap",
+    "instructions": "Touch all blocks. Touch the starred block last.",
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [6, 1, 4],
+                [6, 1, 8],
+                [7, 1, 4],
+                [7, 1, 5],
+                [7, 1, 6],
+                [7, 1, 7],
+                [7, 1, 8],
+                [5, 1, 5],
+                [5, 1, 6],
+                [5, 1, 7],
+                [5, 1, 8]
+            ],
+            "overrides": {
+                "BrickColor": "Brick yellow"
+            }
+        }, {
+            "blockPositions": [
+                [5, 1, 4]
+            ],
+            "overrides": {
+                "BrickColor": "Cashmere"
+            }
+        }
+    ],
+    "gameModes": ["multiStepBlocks"],
+    "map": [
+        [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ]
+    ]
+}

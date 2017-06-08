@@ -1,0 +1,55 @@
+{
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [1, 1, 1],
+                [7, 1, 5],
+                [7, 1, 7]
+            ],
+            "overrides": {
+                "BrickColor": "Bright bluish green"
+            }
+        }, {
+            "blockPositions": [
+                [11, 1, 1],
+                [11, 1, 11],
+                [1, 1, 11]
+            ],
+            "overrides": {
+                "BrickColor": "Deep orange"
+            }
+        }
+    ],
+    "instructions": "Touch every block",
+    "gameplayOptions": {
+        "portalSets": [{
+                "orange": [11, 1, 1],
+                "blue": [1, 1, 1]
+            }, {
+                "orange": [11, 1, 11],
+                "blue": [7, 1, 5]
+            }, {
+                "orange": [1, 1, 11],
+                "blue": [7, 1, 7]
+            }
+        ]
+    },
+    "entry": [6, 1, 6],
+    "awaitOutcome": "allBlocksTouched",
+    "name": "Planet X",
+    "gameModes": ["portals"],
+    "map": [
+        [
+            [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+            [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+            [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0],
+            [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+            [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0],
+            [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+            [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+        ]
+    ]
+}

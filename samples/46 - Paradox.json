@@ -1,0 +1,86 @@
+{
+    "awaitOutcome": "allSpecifiedBlocksTouched",
+    "gameplayOptions": {
+        "portalSets": [{
+                "orange": [11, 1, 8],
+                "blue": [4, 1, 11]
+            }
+        ],
+        "blocksToRemove": {
+            "property": "BrickColor",
+            "value": "Bright green"
+        }
+    },
+    "entry": [1, 1, 1],
+    "name": "Paradox",
+    "instructions": "Touch the green block",
+    "blockPropertyOverrides": [{
+            "blockPositions": [
+                [7, 1, 8]
+            ],
+            "overrides": {
+                "BrickColor": "Bright green"
+            }
+        }, {
+            "blockPositions": [
+                [2, 1, 9],
+                [2, 1, 10],
+                [2, 1, 11],
+                [3, 1, 9],
+                [3, 1, 10],
+                [3, 1, 11],
+                [5, 1, 8],
+                [5, 1, 9],
+                [5, 1, 10],
+                [5, 1, 11],
+                [6, 1, 8],
+                [6, 1, 9],
+                [6, 1, 10],
+                [6, 1, 11],
+                [8, 1, 8],
+                [8, 1, 9],
+                [8, 1, 10],
+                [9, 1, 8],
+                [9, 1, 9],
+                [9, 1, 10],
+                [11, 1, 9],
+                [11, 1, 10],
+                [11, 1, 11]
+            ],
+            "overrides": {
+                "Locked": true,
+                "BrickColor": "Bright red"
+            }
+        }, {
+            "blockPositions": [
+                [4, 1, 11]
+            ],
+            "overrides": {
+                "BrickColor": "Bright bluish green"
+            }
+        }, {
+            "blockPositions": [
+                [11, 1, 8]
+            ],
+            "overrides": {
+                "BrickColor": "Deep orange"
+            }
+        }
+    ],
+    "gameModes": ["portals", "horizontalMirrorMode"],
+    "map": [
+        [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ]
+    ]
+}
