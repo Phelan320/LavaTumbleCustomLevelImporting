@@ -2,6 +2,9 @@
 [Lava Tumble](https://www.roblox.com/games/59273753/Lava-Tumble) is a game on ROBLOX. This repository provides 
 documentation and samples that describe how to create and import your own custom levels.
 
+## Quickstart Video Tutorial
+A [video tutorial](https://www.youtube.com/watch?v=yhp6sFFpAxQ) is available describing just the basics of making and importing your own custom levels.
+
 ## Prerequisites
 Importing custom levels is permitted exclusively within Lava Tumble 
 [VIP Servers](http://wiki.roblox.com/index.php?title=VIP_server) so it is necessary to purchase a VIP Server 
